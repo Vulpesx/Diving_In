@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "di",
+  "version": "0.1.0-dev",
+
+  "name": "Diving In",
+  "description": "a mod I created while learning fabric form scratch`",
+  "authors": [
+    "Vulpesx"
+  ],
+  "contact": {
+    "repo": "https://github.com/vulpesx/diving_in"
+  },
+
+  "license": "MIT",
+  "icon": "assets/di/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.vulpesx.di.client.ModClient"
+    ],
+    "main": [
+      "com.vulpesx.di.Mod"
+    ]
+  },
+
+          "mixins": [
+        "di.mixins.json"
+      ],
+    
+  "depends": {
+    "fabricloader": ">=0.12.11",
+              "fabric": "*",
+          "minecraft": "1.16.1"
+  }
+}
